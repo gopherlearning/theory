@@ -1,0 +1,486 @@
+{
+ "done": true,
+ "response": {
+  "@type": "type.googleapis.com/yandex.cloud.ai.stt.v2.LongRunningRecognitionResponse",
+  "chunks": [
+   {
+    "alternatives": [
+     {
+      "words": [
+       {
+        "startTime": "2.299s",
+        "endTime": "2.659s",
+        "word": "начинаем",
+        "confidence": 1
+       },
+       {
+        "startTime": "2.700s",
+        "endTime": "2.960s",
+        "word": "наше",
+        "confidence": 1
+       },
+       {
+        "startTime": "3s",
+        "endTime": "3.959s",
+        "word": "заседание",
+        "confidence": 1
+       },
+       {
+        "startTime": "4.079s",
+        "endTime": "4.429s",
+        "word": "значит",
+        "confidence": 1
+       },
+       {
+        "startTime": "4.719s",
+        "endTime": "4.859s",
+        "word": "мы",
+        "confidence": 1
+       },
+       {
+        "startTime": "4.940s",
+        "endTime": "5.339s",
+        "word": "озвучим",
+        "confidence": 1
+       },
+       {
+        "startTime": "5.380s",
+        "endTime": "5.719s",
+        "word": "что",
+        "confidence": 1
+       },
+       {
+        "startTime": "6.559s",
+        "endTime": "6.639s",
+        "word": "при",
+        "confidence": 1
+       },
+       {
+        "startTime": "6.699s",
+        "endTime": "7.119s",
+        "word": "снятии",
+        "confidence": 1
+       },
+       {
+        "startTime": "7.179s",
+        "endTime": "7.529s",
+        "word": "совета",
+        "confidence": 1
+       },
+       {
+        "startTime": "7.500s",
+        "endTime": "7.719s",
+        "word": "максимально",
+        "confidence": 1
+       },
+       {
+        "startTime": "7.739s",
+        "endTime": "7.779s",
+        "word": "не",
+        "confidence": 1
+       },
+       {
+        "startTime": "7.799s",
+        "endTime": "7.980s",
+        "word": "проводить",
+        "confidence": 1
+       },
+       {
+        "startTime": "9.099s",
+        "endTime": "9.119s",
+        "word": "я",
+        "confidence": 1
+       },
+       {
+        "startTime": "9.139s",
+        "endTime": "9.380s",
+        "word": "заместитель",
+        "confidence": 1
+       },
+       {
+        "startTime": "9.399s",
+        "endTime": "9.679s",
+        "word": "председателя",
+        "confidence": 1
+       },
+       {
+        "startTime": "10.059s",
+        "endTime": "10.179s",
+        "word": "совета",
+        "confidence": 1
+       }
+      ],
+      "text": "Начинаем наше заседание значит мы озвучим что при снятии совета максимально не проводить я заместитель председателя совета",
+      "confidence": 1
+     }
+    ],
+    "channelTag": "1"
+   },
+   {
+    "alternatives": [
+     {
+      "words": [
+       {
+        "startTime": "2.299s",
+        "endTime": "2.659s",
+        "word": "начинаем",
+        "confidence": 1
+       },
+       {
+        "startTime": "2.700s",
+        "endTime": "2.960s",
+        "word": "наше",
+        "confidence": 1
+       },
+       {
+        "startTime": "3s",
+        "endTime": "3.959s",
+        "word": "заседание",
+        "confidence": 1
+       },
+       {
+        "startTime": "4.079s",
+        "endTime": "4.429s",
+        "word": "значит",
+        "confidence": 1
+       },
+       {
+        "startTime": "4.719s",
+        "endTime": "4.859s",
+        "word": "мы",
+        "confidence": 1
+       },
+       {
+        "startTime": "4.940s",
+        "endTime": "5.339s",
+        "word": "озвучим",
+        "confidence": 1
+       },
+       {
+        "startTime": "5.380s",
+        "endTime": "5.519s",
+        "word": "что",
+        "confidence": 1
+       },
+       {
+        "startTime": "6.559s",
+        "endTime": "6.639s",
+        "word": "при",
+        "confidence": 1
+       },
+       {
+        "startTime": "6.699s",
+        "endTime": "7.119s",
+        "word": "снятии",
+        "confidence": 1
+       },
+       {
+        "startTime": "7.179s",
+        "endTime": "7.529s",
+        "word": "совета",
+        "confidence": 1
+       },
+       {
+        "startTime": "7.500s",
+        "endTime": "7.719s",
+        "word": "максимально",
+        "confidence": 1
+       },
+       {
+        "startTime": "7.739s",
+        "endTime": "7.779s",
+        "word": "не",
+        "confidence": 1
+       },
+       {
+        "startTime": "7.799s",
+        "endTime": "7.980s",
+        "word": "проводить",
+        "confidence": 1
+       },
+       {
+        "startTime": "9.099s",
+        "endTime": "9.119s",
+        "word": "я",
+        "confidence": 1
+       },
+       {
+        "startTime": "9.139s",
+        "endTime": "9.380s",
+        "word": "заместитель",
+        "confidence": 1
+       },
+       {
+        "startTime": "9.399s",
+        "endTime": "9.679s",
+        "word": "председателя",
+        "confidence": 1
+       },
+       {
+        "startTime": "10.059s",
+        "endTime": "10.179s",
+        "word": "совета",
+        "confidence": 1
+       }
+      ],
+      "text": "Начинаем наше заседание значит мы озвучим что при снятии совета максимально не проводить я заместитель председателя совета",
+      "confidence": 1
+     }
+    ],
+    "channelTag": "2"
+   },
+   {
+    "alternatives": [
+     {
+      "words": [
+       {
+        "startTime": "19.009s",
+        "endTime": "19.050s",
+        "word": "из",
+        "confidence": 1
+       },
+       {
+        "startTime": "19.109s",
+        "endTime": "19.309s",
+        "word": "двадцати",
+        "confidence": 1
+       },
+       {
+        "startTime": "19.529s",
+        "endTime": "19.609s",
+        "word": "пяти",
+        "confidence": 1
+       },
+       {
+        "startTime": "20.189s",
+        "endTime": "20.369s",
+        "word": "членов",
+        "confidence": 1
+       },
+       {
+        "startTime": "20.409s",
+        "endTime": "20.709s",
+        "word": "дислоцированного",
+        "confidence": 1
+       },
+       {
+        "startTime": "21.089s",
+        "endTime": "21.209s",
+        "word": "совета",
+        "confidence": 1
+       },
+       {
+        "startTime": "21.290s",
+        "endTime": "21.589s",
+        "word": "присутствуют",
+        "confidence": 1
+       },
+       {
+        "startTime": "21.700s",
+        "endTime": "22.329s",
+        "word": "восемнадцать",
+        "confidence": 1
+       },
+       {
+        "startTime": "23.329s",
+        "endTime": "23.589s",
+        "word": "членов",
+        "confidence": 1
+       },
+       {
+        "startTime": "23.649s",
+        "endTime": "24.369s",
+        "word": "совета",
+        "confidence": 1
+       }
+      ],
+      "text": "Из 25 членов дислоцированного совета присутствуют 18 членов совета",
+      "confidence": 1
+     }
+    ],
+    "channelTag": "1"
+   },
+   {
+    "alternatives": [
+     {
+      "words": [
+       {
+        "startTime": "19.009s",
+        "endTime": "19.050s",
+        "word": "из",
+        "confidence": 1
+       },
+       {
+        "startTime": "19.109s",
+        "endTime": "19.309s",
+        "word": "двадцати",
+        "confidence": 1
+       },
+       {
+        "startTime": "19.529s",
+        "endTime": "19.629s",
+        "word": "пяти",
+        "confidence": 1
+       },
+       {
+        "startTime": "20.189s",
+        "endTime": "20.369s",
+        "word": "членов",
+        "confidence": 1
+       },
+       {
+        "startTime": "20.409s",
+        "endTime": "20.709s",
+        "word": "дислоцированного",
+        "confidence": 1
+       },
+       {
+        "startTime": "21.089s",
+        "endTime": "21.209s",
+        "word": "совета",
+        "confidence": 1
+       },
+       {
+        "startTime": "21.290s",
+        "endTime": "21.589s",
+        "word": "присутствуют",
+        "confidence": 1
+       },
+       {
+        "startTime": "21.700s",
+        "endTime": "22.329s",
+        "word": "восемнадцать",
+        "confidence": 1
+       },
+       {
+        "startTime": "23.329s",
+        "endTime": "23.589s",
+        "word": "членов",
+        "confidence": 1
+       },
+       {
+        "startTime": "23.649s",
+        "endTime": "24.369s",
+        "word": "совета",
+        "confidence": 1
+       }
+      ],
+      "text": "Из 25 членов дислоцированного совета присутствуют 18 членов совета",
+      "confidence": 1
+     }
+    ],
+    "channelTag": "2"
+   },
+   {
+    "alternatives": [
+     {
+      "words": [
+       {
+        "startTime": "26.960s",
+        "endTime": "27.059s",
+        "word": "по",
+        "confidence": 1
+       },
+       {
+        "startTime": "27.559s",
+        "endTime": "27.899s",
+        "word": "специальности",
+        "confidence": 1
+       },
+       {
+        "startTime": "27.919s",
+        "endTime": "27.999s",
+        "word": "ноль",
+        "confidence": 1
+       },
+       {
+        "startTime": "28.019s",
+        "endTime": "28.179s",
+        "word": "пять",
+        "confidence": 1
+       },
+       {
+        "startTime": "28.219s",
+        "endTime": "28.679s",
+        "word": "двенадцать",
+        "confidence": 1
+       },
+       {
+        "startTime": "28.719s",
+        "endTime": "29.179s",
+        "word": "тринадцать",
+        "confidence": 1
+       },
+       {
+        "startTime": "29.239s",
+        "endTime": "29.580s",
+        "word": "система",
+        "confidence": 1
+       }
+      ],
+      "text": "По специальности 0 5 12 13 система",
+      "confidence": 1
+     }
+    ],
+    "channelTag": "1"
+   },
+   {
+    "alternatives": [
+     {
+      "words": [
+       {
+        "startTime": "26.960s",
+        "endTime": "27.059s",
+        "word": "по",
+        "confidence": 1
+       },
+       {
+        "startTime": "27.559s",
+        "endTime": "27.919s",
+        "word": "специальности",
+        "confidence": 1
+       },
+       {
+        "startTime": "27.939s",
+        "endTime": "28.019s",
+        "word": "ноль",
+        "confidence": 1
+       },
+       {
+        "startTime": "28.040s",
+        "endTime": "28.179s",
+        "word": "пять",
+        "confidence": 1
+       },
+       {
+        "startTime": "28.219s",
+        "endTime": "28.679s",
+        "word": "двенадцать",
+        "confidence": 1
+       },
+       {
+        "startTime": "28.719s",
+        "endTime": "29.179s",
+        "word": "тринадцать",
+        "confidence": 1
+       },
+       {
+        "startTime": "29.239s",
+        "endTime": "29.779s",
+        "word": "система",
+        "confidence": 1
+       }
+      ],
+      "text": "По специальности 0 5 12 13 система",
+      "confidence": 1
+     }
+    ],
+    "channelTag": "2"
+   }
+  ]
+ },
+ "id": "e03nrljjmss9635a8gnr",
+ "createdAt": "2022-04-03T21:50:36Z",
+ "createdBy": "ajeb46p16kvamsg5s3l5",
+ "modifiedAt": "2022-04-03T21:50:40Z"
+}

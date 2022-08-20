@@ -1,0 +1,28 @@
+{
+    "config": {
+        "specification": {
+            "languageCode": "string",
+            "model": "string",
+            "profanityFilter": "string",
+            "audioEncoding": "string",
+            "sampleRateHertz": "integer",
+            "audioChannelCount": "integer"
+        }
+    },
+    "audio": {
+        "uri": "https://storage.yandexcloud.net/duduhexchange/cam1.mp3"
+    }
+}
+
+specification := stt.RecognitionSpec{
+  AudioEncoding:   stt.RecognitionSpec_LINEAR16_PCM,
+  LanguageCode:    "ru-RU",
+  ProfanityFilter: true,
+  Model:           "general",
+  PartialResults:  true,
+  SampleRateHertz: 8000,
+}
+streaming_config := stt.RecognitionConfig{
+  Specification: &specification,
+  FolderId:      "b1g5k7e5erj5cbiudq71",
+}
