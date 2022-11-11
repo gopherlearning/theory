@@ -63,12 +63,12 @@ func main() {
 		return
 	}
 
-	nums := make([]int64, 2)
+	nums := make([]int, 2)
 
 	for i, v := range in {
-		var num int64
+		var num int
 		fmt.Println(v)
-		num, err = strconv.ParseInt(v, 10, 64)
+		num, err = strconv.Atoi(strings.TrimRight(v, "\n"))
 
 		if err != nil {
 			fmt.Println(i, "неверный формат ввода 1", v)
