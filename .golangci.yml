@@ -1,0 +1,77 @@
+run:
+  max-same-issues: 0
+  max-issues-per-linter: 0
+  skip-dirs:
+    - wordlists
+
+issues:
+  exclude-rules:
+    - path: cmd/server/main.go
+      linters:
+      - wsl
+      - errcheck
+      - ineffassign
+      - staticcheck
+      # source: cmd/server/main.go
+#     - path: (languages|bip39_test|example_test)\.go
+#       linters:
+#         - lll
+#     - path: bip39\.go
+#       text: "ST1005: error strings should not be capitalized"
+#       linters:
+#         - stylecheck
+
+linters-settings:
+  dupl:
+    threshold: 200
+  errcheck:
+    check-type-assertions: false
+    check-blank: false
+  goconst:
+    min-occurrences: 2
+  gocyclo:
+    min-complexity: 12
+  # misspell:
+  #   locale: US
+  nakedret:
+    max-func-lines: 0
+  unparam:
+    algo: cha
+    check-exported: false
+  govet:
+    enable-all: true
+    check-shadowing: true
+linters:
+  enable:
+    - asciicheck
+    # - deadcode
+    - depguard
+    - dogsled
+    - dupl
+    - errcheck
+    - funlen
+    - goconst
+    - gocognit
+    - gocritic
+    - gocyclo
+    - godot
+    - godox
+    - gofmt
+    - goimports
+    - revive
+    - gosimple
+    - gosec
+    - govet
+    - ineffassign
+    - megacheck
+    # - misspell
+    - nakedret
+    - nestif
+    - prealloc
+    - exportloopref
+    - stylecheck
+    - unconvert
+    - unparam
+    - unused
+    - whitespace
+    - wsl

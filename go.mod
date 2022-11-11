@@ -3,6 +3,7 @@ module go.sprint-1
 go 1.18
 
 require (
+	github.com/alecthomas/kong v0.7.0
 	github.com/go-resty/resty/v2 v2.7.0
 	github.com/golang/protobuf v1.5.2
 	github.com/labstack/echo-contrib v0.13.0
